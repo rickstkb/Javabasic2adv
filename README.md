@@ -1,2 +1,7 @@
-# Javabasic2adv
-Estudos referente a linguagem Java do básico ao avançado utilizando a IDE Eclipse
+# restAssuredHelloFresh
+
+This project is the result of the second task on the recruitment assignment for Test Automation Engineer position at HelloFresh.
+
+Instructions:
+- Import the project into Eclipse as Maven Project;
+- Run the runTest class as JUnit Test.

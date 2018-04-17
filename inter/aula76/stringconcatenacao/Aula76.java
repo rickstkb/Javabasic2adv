@@ -1,0 +1,52 @@
+package inter.aula76.stringconcatenacao;
+
+public class Aula76 {
+
+	public static void main(String[] args) {
+
+		String curso = "Curso ";
+		String java = "Java";
+		
+		// Concatenacao juncao de strings
+		String cursoJava = curso + java;
+		System.out.println(cursoJava);
+
+		// Concatenando outros tipos de variaveis atribuindo a uma string, com parenteses em exp numericas soma
+		String resultado2Com2 = "Resultado 2+2 = " + (2+2);
+		System.out.println(resultado2Com2);
+		
+		// Sem parenteses concatena outros tipos de variaveis por ex inteira e atribui a variavel que arm
+		String resultado2Com2_ = "Resultado 2+2 = " + 2 + 2;
+		System.out.println(resultado2Com2_);
+
+		// Transformando valor numerico em string utilizando o metodo valueof
+		String um = String.valueOf(1);
+		System.out.println(um);
+		
+		
+		// Juntando varias strings quebradas
+		String concatenacao = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+				"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad " +
+				"minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea " + 
+				"commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit " + 
+				"essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat " + 
+				"non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+		System.out.println(concatenacao);
+
+		
+		// Concatenando de varias strings ao texto inicial
+		String concatenacao2 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, ";
+		concatenacao2 += "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad ";
+		concatenacao2 += "minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea ";
+		concatenacao2 += "commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ";
+		concatenacao2 += "essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat ";
+		concatenacao2 += "non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	
+		System.err.println(concatenacao2);
+		
+		// String sao imutaveis, apenas cada concat aponta para a referencia anterior e poe para o garbage colector
+	
+	}
+
+}
